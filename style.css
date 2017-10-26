@@ -11,6 +11,6 @@ body,p{
 #synopsis{
     margin-top: 20px;
 }
-#flashContainer{
-    margin-top: 50px;
+.characterContainer{
+    margin-top: 70px;
 }

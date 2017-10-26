@@ -5,28 +5,68 @@
         <title>Justice League Tribute Page</title>
         
         <!-- Bootstrap CDN -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="bootsrap.css" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        
         <!-- Personal CSS -->
         <link rel="stylesheet" href="style.css" type="text/css" />
         
     </head>
     <body>
+            
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png"></img></a>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Unite The League
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="wonderwoman.html">Wonder Woman</a>
+                  <a class="dropdown-item" href="#">The Batman</a>
+                  <a class="dropdown-item" href="#">Cyborg</a>
+                  <a class="dropdown-item" href="flash.html">The Flash</a>
+                  <a class="dropdown-item" href="#">The Aquaman</a>
+                </div>
+              </li>
+                
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trailers</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="synopsis.html">Synopsis</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tickets</a>
+              </li>
+            </ul>
+          </div>
+        </nav> 
+        <!-- End of NavBar -->
+       
         
-         <div class="container-fluid">
+        <!-- Synopsis -->
+         <div class="container">
              <div class="row">
-                 <div class="col-md-12 text-center">
-                     <img src="images/jlLogo.png"></img>
-                 </div>   
-                 <div class="col-md-12 text-center">
-                     <img src="images/group"></img>
+                
+                 <div class="col-md-10 offset-md-1">
+                     <img class="img-fluid" src="images/group1.jpg"></img>
                  </div>
              </div>
              <div class="row">
-                 <div class="col-md-3"></div>
-                 <div class="col-md-6 text center">
-                     <h2>
+                 
+                 <div class="col-md-12 text center">
+                     <h2 class="highlight-text" id="synopsis">
                          SYNOPSIS
                      </h2>
                      <p>Fueled by his restored faith in humanity and inspired by Superman’s selfless act, Bruce Wayne enlists the help of his newfound ally, Diana Prince, to face an even greater enemy. Together, Batman and Wonder Woman work quickly to find and recruit a team of metahumans to stand against this newly awakened threat. But despite the formation of this unprecedented league of heroes—Batman, Wonder Woman, Aquaman, Cyborg and The Flash—it may already be too late to save the planet from an assault of catastrophic proportions.</p>
@@ -34,9 +74,13 @@
                     <p>Justice League will be released in theaters on November 17, 2017.</p>
                  </div>
              </div>
-             
          </div>
-         
+        
+        <footer class="text-center">&copy ALL RIGHTS BELONGS TO DC COMICS.</footer>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
         <script type="text/javascript" src=".js/script.js"></script>
     </body>
 </html>
